@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedro Shiokawa Silva — Dev em Construção</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">PS<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#formacao">Formação</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div id="hero">
+  <div class="grid-bg"></div>
+
+  <div class="hero-left">
+    <div class="hero-tag">Desenvolvedor em formação</div>
+    <h1 class="hero-name">
+      <span class="first">Pedro</span>
+      <span class="last">Shiokawa</span>
+      <span class="surname">Silva</span>
+    </h1>
+    <p class="hero-desc">
+      17 anos. Nascido em <strong>Newton, EUA</strong>. Estudante de <strong>Ciência da Computação</strong> no CEUB — construindo o futuro uma linha de código por vez.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projetos" class="btn btn-primary">Ver projetos →</a>
+      <a href="#contato" class="btn btn-ghost">Entre em contato</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-visual">
+      <svg class="hex-ring" viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="190,10 360,100 360,280 190,370 20,280 20,100" stroke="#2a2a3a" stroke-width="1" fill="none"/>
+        <polygon points="190,30 340,110 340,270 190,350 40,270 40,110" stroke="#64ffda22" stroke-width="0.5" fill="none"/>
+        <circle cx="190" cy="10" r="4" fill="#64ffda"/>
+        <circle cx="360" cy="100" r="4" fill="#64ffda"/>
+        <circle cx="360" cy="280" r="4" fill="#64ffda"/>
+        <circle cx="190" cy="370" r="4" fill="#64ffda"/>
+        <circle cx="20" cy="280" r="4" fill="#64ffda"/>
+        <circle cx="20" cy="100" r="4" fill="#64ffda"/>
+      </svg>
+      <svg class="hex-ring hex-ring-2" viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="190,50 320,120 320,260 190,330 60,260 60,120" stroke="#ff6b6b22" stroke-width="0.5" fill="none"/>
+      </svg>
+      <div class="avatar-placeholder">
+        <div class="avatar-initials">PS</div>
+        <div class="avatar-sub">Dev</div>
+      </div>
+      <div class="floating-badge badge-python">🐍 Python — Certificado</div>
+      <div class="floating-badge badge-html">🌐 HTML &amp; CSS</div>
+      <div class="floating-badge badge-cs">🎓 Ciência da Computação</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</div>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="section-label">01 — Quem sou</div>
+  <h2 class="section-title fade-in">Um pouco<br>sobre mim.</h2>
+  <div class="grid fade-in">
+    <div class="sobre-text">
+      <p>Tenho <strong>17 anos</strong> e nasci em <strong>Newton, Estados Unidos</strong>. Atualmente moro no Brasil e estou no <strong>1º semestre de Ciência da Computação no CEUB</strong>, onde mergulhei de cabeça no mundo da computação.</p>
+      <p>Minha jornada na programação começou com <strong>Python</strong> pelo Curso em Vídeo, onde aprendi os fundamentos que me deram confiança para ir além. Hoje estou focado em <strong>desenvolvimento web</strong>, estudando HTML e CSS para construir interfaces que fazem sentido.</p>
+      <p>Acredito que cada projeto, exercício e commit no GitHub é um tijolo na construção da minha carreira. Estou aqui para aprender, crescer e, eventualmente, criar coisas que impactem pessoas.</p>
+    </div>
+    <div class="sobre-stats">
+      <div class="stat-card fade-in">
+        <div class="stat-num">17</div>
+        <div class="stat-label">Anos de idade</div>
+      </div>
+      <div class="stat-card fade-in">
+        <div class="stat-num">1°</div>
+        <div class="stat-label">Semestre na faculdade</div>
+      </div>
+      <div class="stat-card fade-in">
+        <div class="stat-num">2</div>
+        <div class="stat-label">Linguagens estudadas</div>
+      </div>
+      <div class="stat-card fade-in">
+        <div class="stat-num">∞</div>
+        <div class="stat-label">Curiosidade</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<div class="skills-section" id="skills">
+  <div class="skills-inner">
+    <div class="section-label fade-in">02 — Habilidades</div>
+    <h2 class="section-title fade-in">Minha stack<br>atual.</h2>
+    <div class="skill-groups fade-in">
+      <div class="skill-group">
+        <div class="sg-icon">🐍</div>
+        <div class="sg-title">Python</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Sintaxe &amp; Lógica</span><span class="skill-pct">75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Estruturas de dados</span><span class="skill-pct">60%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Funções &amp; Módulos</span><span class="skill-pct">65%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-icon">🌐</div>
+        <div class="sg-title">Web (em progresso)</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">HTML5</span><span class="skill-pct">50%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:50%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">CSS3</span><span class="skill-pct">40%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:40%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Design Responsivo</span><span class="skill-pct">35%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:35%"></div></div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-icon">💻</div>
+        <div class="sg-title">Ferramentas</div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Git &amp; GitHub</span><span class="skill-pct">55%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:55%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">VS Code</span><span class="skill-pct">70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span class="skill-name">Terminal / CLI</span><span class="skill-pct">45%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:45%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FORMAÇÃO -->
+<section id="formacao">
+  <div class="section-label fade-in">03 — Formação</div>
+  <h2 class="section-title fade-in">Minha jornada<br>de aprendizado.</h2>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2025 — presente</div>
+      <div class="tl-title">Ciência da Computação</div>
+      <div class="tl-institution">CEUB — Centro Universitário de Brasília</div>
+      <div class="tl-desc">Cursando o 1º semestre, explorando os fundamentos da computação, algoritmos, matemática discreta e lógica de programação. Uma base sólida para uma carreira em tecnologia.</div>
+      <span class="tl-badge">Em andamento</span>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2024</div>
+      <div class="tl-title">Python — Linguagem de Programação</div>
+      <div class="tl-institution">Curso em Vídeo</div>
+      <div class="tl-desc">Aprendi os fundamentos da programação: variáveis, condicionais, loops, funções, listas, dicionários e conceitos de orientação a objetos. Meu primeiro passo formal no mundo do código.</div>
+      <span class="tl-badge tl-badge-done">Concluído ✓</span>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">Agora</div>
+      <div class="tl-title">HTML &amp; CSS — Desenvolvimento Web</div>
+      <div class="tl-institution">Autodidata</div>
+      <div class="tl-desc">Estudando as linguagens da web para criar interfaces visualmente atraentes e acessíveis. Em constante evolução, aplicando o conhecimento em projetos práticos disponíveis no GitHub.</div>
+      <span class="tl-badge">Em andamento</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos" class="projetos-section">
+  <div class="projetos-inner">
+    <div class="section-label fade-in">04 — Projetos</div>
+    <h2 class="section-title fade-in">O que estou<br>construindo.</h2>
+    <div class="projects-grid fade-in">
+      <div class="project-card">
+        <div class="project-num">01</div>
+        <div class="project-title">Exercícios de Python</div>
+        <div class="project-desc">Coleção de exercícios práticos desenvolvidos durante o curso Curso em Vídeo. Desde algoritmos simples até manipulação de dados e funções mais complexas.</div>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Algoritmos</span>
+          <span class="tag">Lógica</span>
+        </div>
+        <a href="https://github.com/PedroShiokawa" class="project-cta" target="_blank">Ver no GitHub →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-num">02</div>
+        <div class="project-title">Estudos de HTML &amp; CSS</div>
+        <div class="project-desc">Projetos e experimentos em desenvolvimento web. Praticando layouts, estilos, responsividade e boas práticas de front-end enquanto aprendo.</div>
+        <div class="project-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Web</span>
+        </div>
+        <a href="https://github.com/PedroShiokawa" class="project-cta" target="_blank">Ver no GitHub →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <div class="project-title">Projetos da Faculdade</div>
+        <div class="project-desc">Trabalhos e projetos desenvolvidos no CEUB durante o curso de Ciência da Computação. Fundamentos, desafios acadêmicos e muito aprendizado.</div>
+        <div class="project-tags">
+          <span class="tag">CEUB</span>
+          <span class="tag">Ciência da Computação</span>
+        </div>
+        <a href="https://github.com/PedroShiokawa" class="project-cta" target="_blank">Ver no GitHub →</a>
+      </div>
+      <div class="project-card project-card-wip">
+        <div class="project-num project-num-muted">04</div>
+        <div class="project-title project-title-muted">Em breve...</div>
+        <div class="project-desc">O próximo projeto está sendo pensado. Acompanhe o GitHub para não perder as novidades!</div>
+        <div class="project-tags">
+          <span class="tag">?</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="contato-section">
+  <div class="section-label fade-in">05 — Contato</div>
+  <h2 class="section-title fade-in">Vamos nos<br>conectar?</h2>
+  <p class="contato-desc fade-in">Estou sempre aberto a trocar ideias, colaborar em projetos ou simplesmente conversar sobre tecnologia. Me encontre por aqui:</p>
+  <div class="contact-links fade-in">
+    <a href="https://github.com/PedroShiokawa" class="contact-link" target="_blank">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+      GitHub
+    </a>
+    <a href="mailto:pedro@email.com" class="contact-link">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+      E-mail
+    </a>
+    <a href="https://www.linkedin.com" class="contact-link" target="_blank">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      LinkedIn
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2025 Pedro Shiokawa Silva</span>
+  <span class="footer-motto">// Construindo o futuro, um commit por vez.</span>
+  <span>Newton, USA → Brasília, BR</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
